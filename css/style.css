@@ -119,7 +119,7 @@ margin-bottom: 30px;
   background-color: #888888;
 }
 .search:active {
-  background-color: #503e33;
+  background-color: #cacaca;
   color: rgba(255, 255, 255, 0.3);
   /*color: #5e4e44;*/
 }
@@ -909,7 +909,9 @@ input::-webkit-inner-spin-button {
     text-align: center;
     padding: 37px 0;
 }
-.fbb:active,
+.fbb:active {
+  fill: #cacaca;
+}
 .fbb:hover {
   fill: #888888;
 }
@@ -949,10 +951,6 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   background-position: 0px 0;
 text-decoration: none;
-}
-.website:hover path,
-.website:focus path{
-  fill: #81b3d2;
 }
 .website:active path{
   fill: #bdbbbc;
